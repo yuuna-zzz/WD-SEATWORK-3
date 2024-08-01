@@ -1,0 +1,64 @@
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bounceIn {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes rotateIn {
+    from {
+        transform: rotate(-360deg);
+    }
+    to {
+        transform: rotate(0);
+    }
+}
+
+@keyframes flipIn {
+    from {
+        transform: rotateY(180deg);
+    }
+    to {
+        transform: rotateY(0);
+    }
+}
+
+.slide-in {
+    animation: slideIn 1s ease-out;
+}
+
+.fade-in {
+    animation: fadeIn 3s ease-out;
+}
+
+.bounce-in {
+    animation: bouceIn 5s ease-out;
+}
+
+.rotate-in {
+    animation: rotateIn 2s ease-out;
+}
+
+.flip-in {
+    animation: flipIn 1s ease-out;
+}

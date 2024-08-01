@@ -1,0 +1,36 @@
+body {
+    font: Arial, sans-serif;
+    background-color: rgb(219, 134, 148);
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background:pink;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+
+h1,h2 {
+    color:black;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    color:black;
+    background-color: pink;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: white;
+}
